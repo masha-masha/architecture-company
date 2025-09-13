@@ -17,12 +17,15 @@ const Header = () => {
      <nav class="header-bottom-nav">
       <ul>
        <li>
+        <span>&mdash;</span>
         <a href="#about">About</a>
        </li>
        <li>
+        <span>&mdash;</span>
         <a href="#mission">Mission</a>
        </li>
        <li>
+        <span>&mdash;</span>
         <a href="#portfolio">Portfolio</a>
        </li>
       </ul>

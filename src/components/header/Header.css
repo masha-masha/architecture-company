@@ -1,0 +1,63 @@
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+    border-left: none;
+    margin-top: 20px;
+    margin-bottom: 44px;
+}
+
+.header-top-left-side {
+    font-size: 85px;
+    font-family: "Oswald", sans-serif;
+}
+
+.header-top-right-side {
+    display: flex;
+    align-items: center;
+    border-left: 2px solid black;
+}
+
+.header-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-bottom-left-side {
+    width: 523px;
+}
+
+.header-bottom-left-side h2 {
+    width: 286px;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 43px;
+    font-family: "Outfit", sans-serif;
+    padding-bottom: 92px;
+}
+
+.header-bottom-nav {
+    font-family: "Rajdhani", sans-serif;
+    padding-bottom: 29px;
+}
+
+.header-bottom-nav ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    padding-bottom: 15px;
+    padding-right: 60px;
+}
+
+.header-bottom-right-side  {
+    width: 820px;
+    height: 500px;
+}
+
+.header-bottom-left-side p {
+     font-family: "Rajdhani", sans-serif;
+     font-size: 25px;
+     line-height: 27px;
+     font-weight: 500;
+}
