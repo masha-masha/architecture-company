@@ -1,9 +1,45 @@
-import "./Header.css"
+import './Header.css';
 
 const Header = () => {
-  return (
-    <div>Header</div>
-  )
-}
+ return (
+  <div class='container'>
+   <div className='header-top'>
+    <div className='header-top-left-side'>
+     WE CREATE THE FUTURE IN YOUR HOME
+    </div>
+    <div className='header-top-right-side'>
+     <img src='/images/logo-line.png' alt='logo' />
+    </div>
+   </div>
+   <div className='header-bottom'>
+    <div className='header-bottom-left-side'>
+     <h2>INTERIOR SOLUTIONS COMPANY</h2>
+     <nav class='header-bottom-nav'>
+      <ul>
+       <li>
+        <a href='#about'>About</a>
+       </li>
+       <li>
+        <a href='#mission'>Mission</a>
+       </li>
+       <li>
+        <a href='#portfolio'>Portfolio</a>
+       </li>
+      </ul>
+     </nav>
+     <p>
+      We will turn the idea into reality. We do it when others refuse. If you
+      have non-standard ideas, but you don't know how to turn them into reality,
+      then come to us. Your ideas are our ideas.
+     </p>
+    </div>
+    <div className='header-bottom-right-side'>
+     <img src='/images/image 1.png' alt='image 1' />
+     <div>Order a disign</div>
+    </div>
+   </div>
+  </div>
+ );
+};
 
-export default Header
+export default Header;
