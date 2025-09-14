@@ -1,0 +1,52 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    font-family: "Rajdhani", sans-serif;
+    height: 777px;
+}
+
+.about-top {
+    display: flex;
+    gap: 88px;
+    height: 325px;
+    margin: 44px 75px 88px 79px;
+
+}
+
+.about-top-card {
+    width: 870px;
+}
+.about-bottom {
+    display: flex;
+    gap: 88px;
+    margin: 44px 75px 88px 79px;
+    height: 276px;
+}
+
+.about-bottom-card {
+    width: 487px;
+    background-color: white;
+    color: black;
+    padding-left: 24px;
+    padding-top: 23px;
+}
+
+.about-bottom-card h3 {
+    font-family: "Oswald", sans-serif;
+    font-size: 30px;
+    line-height: 25px;
+    font-weight: 400;
+    padding-bottom: 40px;
+}
+
+.about-bottom-card p {
+    font-size: 19px;
+    padding-bottom: 13px;
+}
+
+.about-bottom-card button {
+    font-size: 17px;
+    padding-bottom: 12px;
+}

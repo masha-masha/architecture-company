@@ -2,7 +2,7 @@ import "./Header.css";
 
 const Header = () => {
  return (
-  <div class="container">
+  <header className="header container">
    <div className="header-top">
     <div className="header-top-left-side">
      WE CREATE THE FUTURE IN YOUR HOME
@@ -14,7 +14,7 @@ const Header = () => {
    <div className="header-bottom">
     <div className="header-bottom-left-side">
      <h2>INTERIOR SOLUTIONS COMPANY</h2>
-     <nav class="header-bottom-nav">
+     <nav className="header-bottom-nav">
       <ul>
        <li>
         <span>&mdash;</span>
@@ -41,7 +41,7 @@ const Header = () => {
      <div>Order a disign</div>
     </div>
    </div>
-  </div>
+  </header>
  );
 };
 

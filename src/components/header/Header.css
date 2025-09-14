@@ -1,3 +1,7 @@
+.header {
+    padding-bottom: 46px;
+}
+
 .header-top {
     display: flex;
     justify-content: space-between;
@@ -21,6 +25,7 @@
 .header-bottom {
     display: flex;
     justify-content: space-between;
+    height: 555px;
 }
 
 .header-bottom-left-side {
@@ -52,6 +57,12 @@
 
 .header-bottom-right-side  {
     width: 820px;
+    height: 555px;
+    position: relative;
+}
+
+.header-bottom-right-side img {
+    width: 859px;
     height: 500px;
 }
 
@@ -60,4 +71,18 @@
      font-size: 25px;
      line-height: 27px;
      font-weight: 500;
+}
+
+.header-bottom-right-side div {
+  position: absolute;
+  right: 20px;
+  bottom: 60px;
+  padding: 10px 58px;
+  color: white;
+  background-color: black;
+  font-size: 18px;
+  line-height: 25px;
+  font-family: "Oswald", sans-serif;
+  box-shadow: 10px 10px 10px white, 
+             -2px -2px 5px white; 
 }
