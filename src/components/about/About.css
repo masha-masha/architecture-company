@@ -4,7 +4,7 @@
     background-color: black;
     color: white;
     font-family: "Rajdhani", sans-serif;
-    height: 777px;
+    height: 800px;
 }
 
 .about-top {
@@ -17,6 +17,34 @@
 
 .about-top-card {
     width: 870px;
+    font-family: "Rajdhani", sans-serif;
+    border: 1px solid rgb(245, 241, 241); 
+    border-bottom: none; 
+    border-left: none;   
+    border-right: none;  
+
+}
+
+.about-top-card h2 {
+    font-family: "Oswald", sans-serif;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0%;
+    font-weight: 400;
+    width: 328px;
+    padding-top: 14px;
+    padding-bottom: 50px;
+    text-transform: uppercase;
+}
+
+.about-top-card p {
+  font-size: 25px;
+  line-height: 27px;
+  letter-spacing: 0%;
+}
+
+.about-top-image img {
+  height: 310px;
 }
 .about-bottom {
     display: flex;
@@ -49,4 +77,8 @@
 .about-bottom-card button {
     font-size: 17px;
     padding-bottom: 12px;
+}
+
+.about-bottom-image img{
+    height: 274px;
 }
