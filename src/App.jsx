@@ -10,8 +10,8 @@ function App() {
     <>
     <Header/>
     <About/>
-    <Portfolio/>
     <Mission/>
+    <Portfolio/>
     <Footer/>
     </>
   )
