@@ -1,0 +1,9 @@
+.section-portfolio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card-with-text {
+    width: 725px;
+}
