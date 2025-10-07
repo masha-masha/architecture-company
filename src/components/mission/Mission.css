@@ -1,0 +1,64 @@
+.section-mission {
+    display: flex;
+    padding-top: 44px;
+    padding-bottom: 44px;
+    gap: 206px;
+    font-family: "Oswald", sans-serif;
+}
+
+.section-mission-left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 627px;
+    border: 1px solid black;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+.section-mission-left-side-top  {
+  padding-bottom: 138px;
+}
+.section-mission-left-side-top h2 {
+   font-size: 40px;
+   font-weight: 400;
+   line-height: 57px;
+   padding-bottom: 40px;
+}
+
+.section-mission-left-side-top p {
+    font-family: "Rajdhani", sans-serif;
+    font-size: 20px;
+    line-height: 29px;
+    padding-bottom: 23px;
+}
+
+.section-mission-left-side-top button {
+    font-size: 19px;
+    line-height: 25px;
+    font-family: "Oswald", sans-serif;
+}
+
+.section-mission-left-side-bottom {
+    height: 310px;
+    width: 623px;
+    background-color: black;
+    color: white;
+    padding-top: 23px;
+    padding-left: 32px;
+    padding-right: 42px;
+}
+
+.section-mission-left-side-bottom h3 {
+   font-size: 30px;
+   font-weight: 400;
+   padding-bottom: 53px;
+}
+
+
+.section-mission-left-side-bottom p {
+    font-family: "Rajdhani", sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+}
